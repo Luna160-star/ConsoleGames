@@ -1,0 +1,27 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+.gridbox{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    
+}
+
+.gridbox table,td,tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    height: 30px;
+    width: 30px;
+}
