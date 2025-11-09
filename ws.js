@@ -36,8 +36,7 @@ function startSelection(box) {
 }
 
 function clearSelection() {
-    selectedBoxes.forEach(box => box.classList.removal('select'));
-    selectedBoxes.forEach(box => box.classList.remove('highlight'));
+    selectedBoxes.forEach(box => box.classList.remove('select'));
     selectedBoxes = [];
 }
 
@@ -48,7 +47,7 @@ let answerList = ['WATER', 'BAG', 'COMPASS', 'ROPE', 'FLASHLIGHT'] /*maybe i mys
 
 if (answerList.includes(word)) {
 
-    selectedBoxes.forEach(cell => {
+    selectedBoxes.forEach(box => {
     box.classList.remove('select');
     box.classList.add('highlight');
 });
@@ -57,9 +56,6 @@ if (answerList.includes(word)) {
 setTimeout(() => {
     clearSelection();
 }, 100);
-}
-
-selectedBoxes = [];
-}
+}}
 
 document.body.onmousedown = () => false;
