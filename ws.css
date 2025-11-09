@@ -18,10 +18,26 @@ body{
 
 .gridbox table,td,tr{
     border: 2px solid black;
-    border-collapse: collapse;
+    background-color: rgb(230, 174, 174);
+    
+
 }
 
 td{
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
+    background-color: beige;
+    box-shadow: 0.1px 0.1px black;
+    font-family: "Iceberg", sans-serif;
+    font-size: 20px;
 }
+
+h1{
+    font-family: "Engagement", cursive;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(137, 68, 234);
+}
+
+
+   
