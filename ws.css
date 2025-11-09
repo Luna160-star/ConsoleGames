@@ -42,3 +42,7 @@ h1{
 .select{
     background-color: pink;
 }
+
+.highlight{
+    background-color: green;
+}
