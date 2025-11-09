@@ -4,12 +4,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="home.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 <body>
-    <button onclick="selMode()">🌞 / 🌚</button>
+    <button class="lightdark" onclick="selMode()">🌞 / 🌚</button>
+
+
+
+<div class="box1">
+
+    <p>This is a word puzzle, you can just click on the start letter and then like just continue till the letters end.
+        <br>
+      There are 6 words in the puzzle, and the list of words and listed by the side.
+
+    </p>
+
+    
+       <button class="href"> <a href="wordsearch.html"> Word Search </a> </button>
+</div>
+
+
+
+
 <!---for separation of html and javascript!-->
 
-<a href="wordsearch.html"> Word Search </a>
 <script>
     function selMode() {
         var element = document.body;
