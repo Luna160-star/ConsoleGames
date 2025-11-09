@@ -20,4 +20,21 @@ boxes.forEach(box =>{
         }
     })
 
+    /*this action is mainly for when the user leaves the selected box*/
+    box.addEventListener('mouselift', function(e){
+        ispressedButton = false;
+        checkSelection();
+    })
 })
+
+function startSelection(box) {
+    if (!selectedBoxes.includes((box)){
+        box.classList.add('select');
+        selectedBoxes.push(box);
+    })
+
+}
+
+ let word = selectedBoxes.map(box => box.textContent).join('');
+
+ let answer = ['WATER', 'BAG', 'COMPASS', 'ROPE', 'FLASHLIGHT'] /*maybe i myself forgot something here, i will check it at the end*/
