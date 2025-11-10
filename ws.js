@@ -43,7 +43,7 @@ function clearSelection() {
 function checkSelection() {
 
 let word = selectedBoxes.map(box => box.textContent).join('');
-let answerList = ['WATER', 'BAG', 'COMPASS', 'ROPE', 'FLASHLIGHT'] /*maybe i myself forgot something here, i will check it at the end*/
+let answerList = ['WATER', 'BAG', 'COMPASS', 'ROPE', 'FLASHLIGHT', 'TENT', 'MAP'] /*maybe i myself forgot something here, i will check it at the end*/
 
 if (answerList.includes(word)) {
 

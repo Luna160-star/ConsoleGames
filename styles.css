@@ -3,6 +3,10 @@ button{
     position: absolute;
     top: 40%;
     left: 25%;
+    border-radius: 16px;
+    transition: 02s ease;
+    font-family: "Iceberg", sans-serif;
+    background-color: rgb(227, 113, 113)
 }
 
 body{
@@ -18,5 +22,11 @@ h1{
     font-size: 60px;
     top: 100px;
     font-family: "Engagement", cursive;
+}
+
+
+button:hover{
+    transform: scale(0.9);
+    background-color: blue;
 }
 
