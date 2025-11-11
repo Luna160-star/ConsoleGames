@@ -24,8 +24,9 @@ body{
     position: absolute;
     top: 100px;
     left: 350px;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
+    background-color: rgb(172, 200, 246);
 }
 
 button{
